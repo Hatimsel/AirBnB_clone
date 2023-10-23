@@ -1,0 +1,106 @@
+.places {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.places article {
+    padding: 20px;
+    margin: 20px;
+    display:inline-block;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    width: 390px;
+}
+
+.places h1 {
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+/*.article-container article {
+    display: inline-block;
+    margin: 0px;
+}*/
+article h2 {
+    font-size: 30px;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+.places .price_by_night {
+    color: #FF5A5F;
+    border-color: #FF5A5F;
+    border-style: solid;
+    border-radius: 180px;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    /*display:inline-block;*/
+    /*float:inline-end;*/
+    display:block;
+    float:right;
+    text-align: center;
+    line-height: 60px;
+    margin:0px;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.places .information {
+    height: 80px;
+    border-width: 1px 0px;
+    border-color: #DDD;
+    border-style: solid;
+    margin-top: 65px;
+    padding-bottom: 20px;
+}
+.places .information .max_guest,
+.places .information .number_rooms,
+.places .information .number_bathrooms {
+    width: 100px;
+    height: 50px;
+    margin-top: 15px;
+    /*margin-left: 25px;*/
+    display: inline-block;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+}
+
+.places .information .max_guest {
+    background-image: url('../images/icon_group.png');
+}
+
+.places .information .number_rooms {
+    background-image: url('../images/icon_bed.png');
+}
+
+.places .information .number_bathrooms {
+    background-image: url('../images/icon_bath.png');
+}
+
+.places .information .max_guest h5,
+.places .information .number_rooms h5,
+.places .information .number_bathrooms h5 {
+    padding: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-weight: 100;
+}
+.places .user {
+    text-align: left;
+    margin: 30px 0px 20px;
+}
+
+.places .description {
+    text-align: left;
+    font-size: 14px;
+    max-height: 63px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
